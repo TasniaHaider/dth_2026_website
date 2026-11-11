@@ -229,3 +229,480 @@ main img {
 }
 
 #page_two h2 { color: var(--red); }
+
+
+/* NEW ACADEMIC WEBSITE DESIGN */
+
+/* Overall appearance */
+body {
+  background-color: #f7f6f2;
+  color: #263746;
+  font-family: var(--projectFont);
+  line-height: 1.7;
+}
+
+/* Navigation bar */
+#navBar {
+  background-color: #172b3a;
+  color: white;
+  padding: 18px 10%;
+  align-items: center;
+}
+
+#navBar>a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navLink {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.navLink:hover {
+  color: #9dc7e8;
+}
+
+/* New banner without the beach photograph */
+#pageHero {
+  background-image: linear-gradient(120deg, #172b3a, #345d78);
+  height: 230px;
+}
+
+#bannerShadow {
+  background: transparent;
+}
+
+#pageHero h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+/* Main content area */
+main {
+  max-width: 1000px;
+  margin: 45px auto;
+  padding: 0 30px;
+}
+
+main h1 {
+  color: #172b3a;
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  color: #345d78;
+  font-size: 23px;
+  margin-top: 30px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+main img {
+  display: block;
+  width: 100%;
+  max-width: 680px;
+  height: auto;
+  margin: 22px auto;
+  border-radius: 10px;
+}
+
+/* Links */
+main a {
+  color: #315f83;
+}
+
+main a:hover {
+  color: #172b3a;
+}
+
+/* Footer */
+footer {
+  background-color: #172b3a;
+  color: white;
+  padding: 20px;
+}
+
+#footerBody {
+  color: white;
+}
+
+/* Smaller screens */
+@media (max-width: 700px) {
+  #navBar {
+    padding: 15px 5%;
+    flex-wrap: wrap;
+  }
+
+  .navLink {
+    margin-left: 10px;
+  }
+
+  main {
+    margin: 25px auto;
+    padding: 0 18px;
+  }
+
+  #pageHero h1 {
+    font-size: 27px;
+  }
+}
+
+/* Keep page illustrations consistent */
+img {
+    max-width: 100%;
+    max-height: 360px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto 30px;
+}
+nav .navLink {
+    display: inline-block;
+    padding: 10px 18px;
+    margin: 5px;
+    background-color: #172b3a !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav .navLink:hover {
+    background-color: #31536b !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+/* Improve the article cards */
+.carouselArt {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.carouselArt h3 {
+    color: #172b3a;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.carouselArt p {
+    color: #555555;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.carouselArt img {
+    border-radius: 8px;
+}
+/* Improve page headings */
+#content h1 {
+    color: #172b3a;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#content h2 {
+    color: #31536b;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+#content p {
+    line-height: 1.75;
+    color: #444444;
+}
+/* Improve article spacing */
+#content {
+    padding: 25px 35px;
+}
+
+#content img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#content p {
+    margin-bottom: 18px;
+}
+/* Page title banner */
+#content h1 {
+    background: linear-gradient(135deg, #172b3a, #31536b);
+    color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+/* CLASSIC ELEGANT DESIGN */
+
+/* Elegant typography */
+.site-banner h1,
+#content h1,
+.carouselArt h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Gold accents */
+.site-banner {
+    border-bottom: 3px solid #c5a66b;
+}
+
+.site-banner .site-tagline {
+    color: #d7bd86;
+    letter-spacing: 3px;
+}
+
+/* Refined navigation */
+#navbar {
+    border-bottom: 1px solid #d8c9aa;
+}
+
+#navbar .navLink {
+    color: #172b3a;
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 0.4px;
+}
+
+/* Elegant article cards */
+.carouselArt {
+    border: 1px solid #e5dccb;
+    box-shadow: 0 5px 16px rgba(23, 43, 58, 0.08);
+}
+
+.carouselArt h3 {
+    font-size: 19px;
+}
+
+/* Refined section headings */
+#content h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    border-bottom: 1px solid #d8c9aa;
+    padding-bottom: 8px;
+}
+/* Classic elegant background and details */
+
+body {
+    background-color: #eee9df !important;
+}
+
+#content {
+    background-color: #faf8f3;
+    border: 1px solid #e4dac8;
+    border-radius: 12px;
+    padding: 30px 35px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+#navbar {
+    background-color: #e9e1d3;
+    padding: 14px;
+    border-bottom: 2px solid #c5a66b;
+}
+
+.carouselArt {
+    background-color: #faf8f3;
+    border: 1px solid #d9c9ad;
+}
+
+.carouselArt h3 {
+    color: #172b3a;
+}
+
+#content h2 {
+    color: #31536b;
+    border-bottom: 1px solid #c5a66b;
+}
+/* Classic elegant title banner */
+.site-banner {
+    background: linear-gradient(135deg, #142b3c, #294b60);
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 3px solid #c5a66b;
+}
+
+.site-banner h1 {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.site-banner p {
+    color: #eee5d5;
+}
+
+.site-banner .site-tagline {
+    color: #d7bd86;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+/* Refine the page hero */
+#pageHero {
+    background: #eee9df !important;
+    min-height: 90px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#bannerShadow {
+    background: #eee9df !important;
+    min-height: 90px;
+    height: auto;
+    padding: 15px 25px;
+    align-items: center;
+}
+
+#bannerShadow h1 {
+    color: #172b3a;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 0;
+}
+/* Classic elegant footer */
+footer {
+    background: #172b3a;
+    border-top: 3px solid #c5a66b;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+#footerBody {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#footerBody p {
+    color: #e5d8bd !important;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+/* Centre carousel and position arrows */
+main > section:has(#carouselMain) {
+    position: relative;
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+#carouselMain {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#carouselBtnContainer {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 5px;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+.carouselBtn {
+    pointer-events: auto;
+    background: #172b3a !important;
+    color: #d7bd86 !important;
+    border: 1px solid #c5a66b;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.carouselBtn:hover {
+    background: #c5a66b !important;
+    color: #172b3a !important;
+}
+
+/* Fix carousel arrow positions */
+#carouselMain {
+    position: relative;
+}
+
+#carouselBtnLeft {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    margin: 0;
+}
+
+#carouselBtnRight {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    margin: 0;
+}
+/* Final carousel card layout fix */
+
+#carouselMain {
+    aspect-ratio: auto !important;
+    align-items: stretch;
+}
+
+#carouselMain .carouselArt {
+    aspect-ratio: auto !important;
+    box-sizing: border-box !important;
+}
+
+#carouselMain .inFocusArt {
+    height: auto !important;
+    min-height: 420px;
+    overflow: hidden !important;
+    display: flex;
+    flex-direction: column;
+    padding: 18px !important;
+    background: #faf8f3 !important;
+    border-radius: 14px;
+}
+
+#carouselMain .inFocusArt a {
+    position: static !important;
+    display: inline-block;
+    margin-top: auto;
+    padding-top: 18px;
+    z-index: 5;
+}
